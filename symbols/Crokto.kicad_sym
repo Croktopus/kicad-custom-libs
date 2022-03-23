@@ -139,11 +139,11 @@
       )
     )
   )
-  (symbol "TXS0101DBVR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "TXS0101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TXS0101DBVR" (id 1) (at 0 11.43 0)
+    (property "Value" "TXS0101" (id 1) (at 0 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 17.78 0)
@@ -152,13 +152,17 @@
     (property "Datasheet" "" (id 3) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "TXS0101DBVR_0_1"
+    (symbol "TXS0101_0_1"
       (rectangle (start -6.35 6.35) (end 6.35 -6.35)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+      (rectangle (start -6.35 6.35) (end 6.35 -6.35)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
     )
-    (symbol "TXS0101DBVR_1_1"
+    (symbol "TXS0101_1_1"
       (pin input line (at -8.89 3.81 0) (length 2.54)
         (name "VCCA" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
