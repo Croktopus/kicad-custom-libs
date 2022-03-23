@@ -1,9 +1,14 @@
-(module JLCPCBA (layer F.Cu) (tedit 60BA2AEC)
-  (fp_text reference REF** (at 0 2) (layer F.SilkS) hide
+(footprint "JLCPCBA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 623B007D)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 2) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 083e3eaa-bdb8-42c3-b21d-a3e04944fc88)
   )
-  (fp_text value JLCPCBA (at 0 -2) (layer F.Fab)
+  (fp_text value "JLCPCBA" (at 0 -2) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8528248b-dcf6-450a-bed1-2836ed0c3be9)
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 1.3 1.3) (drill 1.152) (layers F&B.Cu *.Mask) (tstamp 1c4f0849-2388-4513-a4da-26b33d665067))
 )
