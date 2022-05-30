@@ -1,6 +1,6 @@
 (footprint "MXHS-100" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 627E06D9)
+  (tedit 6280BF04)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 0) (layer "Dwgs.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -10,6 +10,8 @@
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
     (tstamp a0ca003d-9eee-4b1b-a4e3-412f370f0899)
   )
+  (fp_line (start -2.54 -5.08) (end 1.27 -5.08) (layer "F.SilkS") (width 1) (tstamp 7ffbcf34-4e44-4705-8aaa-88148c848f98))
+  (fp_arc (start 1.27 -5.08) (mid 3.066051 -4.336051) (end 3.81 -2.54) (layer "F.SilkS") (width 1) (tstamp a55421f9-e4b3-4b95-9a5c-a833b0f7321f))
   (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer "Dwgs.User") (width 0.2) (tstamp 0e95702b-aa27-42cd-ade6-beebc10c6f82))
   (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer "Dwgs.User") (width 0.2) (tstamp 313d7939-b1f4-4f95-8fbf-38d2d1bd0a6a))
   (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer "Dwgs.User") (width 0.2) (tstamp 3fdda639-35bd-4f8b-a261-f06f2e0aaaa9))
@@ -31,6 +33,12 @@
   (pad "2" thru_hole circle (at -5.255 -6.73 180) (size 0.8 0.8) (drill 0.4) (layers *.Cu) (tstamp 0cf20b8a-70d7-4517-8300-abc165ec8bd1))
   (pad "2" smd rect (at -3.98 -5.08) (size 2 2.5) (layers "F.Cu") (tstamp 72836593-9aac-49aa-95d5-bb2be2f2fc28))
   (pad "2" smd roundrect (at -5.255 -5.08) (size 0.8 4.1) (layers "B.Cu") (roundrect_rratio 0.5) (tstamp eae563c1-3b35-42e5-b0c6-f0196957ca22))
+  (group "" (id 475c5d8c-e2ce-4cc8-86c9-4722a37b5e2c)
+    (members
+      7ffbcf34-4e44-4705-8aaa-88148c848f98
+      a55421f9-e4b3-4b95-9a5c-a833b0f7321f
+    )
+  )
   (model "${KIPRJMOD}/libs/switches.pretty/hotswap socket v1.step"
     (offset (xyz -13.456 -11 -1.7))
     (scale (xyz 1 1 1))
