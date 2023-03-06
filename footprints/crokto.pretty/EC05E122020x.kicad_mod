@@ -1,0 +1,69 @@
+(footprint "EC05E122020x" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5A64F4AE)
+  (descr "Alps rotary encoder, EC12E..., vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html")
+  (tags "rotary encoder")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -5.5 1.6 90) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2b066c53-76f1-4def-855a-04de6c9469b2)
+  )
+  (fp_text value "EC05E122020x" (at 7.9 0 90) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 232a666b-0f6d-43ad-bd4e-87735cbadd21)
+  )
+  (fp_line (start 1.484746 0.206066) (end 2.333274 1.054594) (layer "Edge.Cuts") (width 0.2) (tstamp 21e192b5-5801-45b0-8f86-4519935ca333))
+  (fp_line (start 3.393934 -0.006066) (end 2.545406 -0.854594) (layer "Edge.Cuts") (width 0.2) (tstamp 5ab48b10-b44f-49a2-b8fa-416672f1ac06))
+  (fp_line (start 2.545406 1.054594) (end 3.393934 0.206066) (layer "Edge.Cuts") (width 0.2) (tstamp 7fe786f9-bd6f-48d1-b9d0-9d5b2df728a5))
+  (fp_line (start 2.333274 -0.854594) (end 1.484746 -0.006066) (layer "Edge.Cuts") (width 0.2) (tstamp a314c2a2-dd5e-4088-a70b-6036325b86ce))
+  (fp_line (start -2.545406 1.054594) (end -3.393934 0.206066) (layer "Edge.Cuts") (width 0.2) (tstamp b371f526-1d05-4622-9d6d-88051b41f100))
+  (fp_line (start -2.333274 -0.854594) (end -1.484746 -0.006066) (layer "Edge.Cuts") (width 0.2) (tstamp bcf3138a-3e43-4644-8442-46dce3312aba))
+  (fp_line (start -1.484746 0.206066) (end -2.333274 1.054594) (layer "Edge.Cuts") (width 0.2) (tstamp e6d09b9c-da11-409a-b7a3-2f674f72e12f))
+  (fp_line (start -3.393934 -0.006066) (end -2.545406 -0.854594) (layer "Edge.Cuts") (width 0.2) (tstamp eb1369d7-ff9b-4665-bbae-d2663726a831))
+  (fp_arc (start -3.393934 0.206066) (mid -3.437868 0.1) (end -3.393934 -0.006066) (layer "Edge.Cuts") (width 0.2) (tstamp 03f977f6-3990-4104-9349-ca4d0bc3cedd))
+  (fp_arc (start 1.484746 0.206066) (mid 1.440809 0.1) (end 1.484746 -0.006066) (layer "Edge.Cuts") (width 0.2) (tstamp 0f14d7e4-f659-4940-88d8-e2cf9f6b4545))
+  (fp_arc (start 2.545406 1.054594) (mid 2.43934 1.098528) (end 2.333274 1.054594) (layer "Edge.Cuts") (width 0.2) (tstamp 12776e53-0647-40be-b341-c6cb7d19c112))
+  (fp_arc (start -2.545406 -0.854594) (mid -2.43934 -0.898528) (end -2.333274 -0.854594) (layer "Edge.Cuts") (width 0.2) (tstamp 23865dab-e1c2-4a4a-9f73-60c9cc54cd54))
+  (fp_arc (start 3.393934 -0.006066) (mid 3.437877 0.1) (end 3.393934 0.206066) (layer "Edge.Cuts") (width 0.2) (tstamp 42cd11f2-7bea-4664-a106-cde231f12029))
+  (fp_arc (start -1.484746 -0.006066) (mid -1.440812 0.1) (end -1.484746 0.206066) (layer "Edge.Cuts") (width 0.2) (tstamp 7e71204f-2fc4-4363-a2d2-379f56de41a2))
+  (fp_arc (start 2.333274 -0.854594) (mid 2.43934 -0.898528) (end 2.545406 -0.854594) (layer "Edge.Cuts") (width 0.2) (tstamp 83a8d911-d03e-4a13-8788-b5d714fd8cb5))
+  (fp_arc (start -2.333274 1.054594) (mid -2.43934 1.098528) (end -2.545406 1.054594) (layer "Edge.Cuts") (width 0.2) (tstamp af4828ac-ee38-4b54-96e3-5349cbbd9ab3))
+  (fp_line (start 4.75 4.3) (end 4.75 -1.1) (layer "F.CrtYd") (width 0.1) (tstamp 09fdd171-c43f-4780-98a3-54f502350298))
+  (fp_line (start -4.75 4.3) (end 4.75 4.3) (layer "F.CrtYd") (width 0.1) (tstamp 658843ac-c024-47aa-8dda-0cb280a2d907))
+  (fp_line (start 4.75 -1.1) (end -4.75 -1.1) (layer "F.CrtYd") (width 0.1) (tstamp a52cbde4-7bdd-48ef-9029-07b4a4cf2e95))
+  (fp_line (start -4.75 -1.1) (end -4.75 4.3) (layer "F.CrtYd") (width 0.1) (tstamp b04916f4-6612-4c56-ae64-e831a1716e3b))
+  (fp_line (start 3.75 -0.1) (end -3.75 -0.1) (layer "F.Fab") (width 0.1) (tstamp 3906e28f-2eec-4639-b428-39ad24470ba7))
+  (fp_line (start -3.75 -0.1) (end -3.75 3.3) (layer "F.Fab") (width 0.1) (tstamp 3df0174b-bdd4-4b97-bd2b-6b8cc192d6ee))
+  (fp_line (start -3.75 3.3) (end 3.75 3.3) (layer "F.Fab") (width 0.1) (tstamp 52f58466-b2c4-4728-8950-19c7d163f0ec))
+  (fp_line (start 3.75 -0.1) (end 3.75 3.3) (layer "F.Fab") (width 0.1) (tstamp aaa32481-98ea-4748-805d-e67fd21aca6a))
+  (pad "" smd roundrect (at 3.625 2.15) (size 1.25 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 703c2173-88f0-4af3-b136-7774069ab5b3))
+  (pad "" smd roundrect (at -3.625 2.15) (size 1.25 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp efb435cd-146f-4cd1-a1ee-c7b799972a28))
+  (pad "A" smd rect (at 2 3) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e33de313-8877-4fea-918b-c50409216053))
+  (pad "B" smd rect (at -2 3) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 69ad0c72-fe7f-4e68-8d85-67d0e234e50e))
+  (pad "C" smd rect (at 0 3) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 884468e0-4cab-4fce-9ee4-7dc5d64e2704))
+  (group "" (id 6a0efe39-b4cf-4c04-8989-5df399ba12c3)
+    (members
+      03f977f6-3990-4104-9349-ca4d0bc3cedd
+      0f14d7e4-f659-4940-88d8-e2cf9f6b4545
+      12776e53-0647-40be-b341-c6cb7d19c112
+      21e192b5-5801-45b0-8f86-4519935ca333
+      23865dab-e1c2-4a4a-9f73-60c9cc54cd54
+      42cd11f2-7bea-4664-a106-cde231f12029
+      5ab48b10-b44f-49a2-b8fa-416672f1ac06
+      7e71204f-2fc4-4363-a2d2-379f56de41a2
+      7fe786f9-bd6f-48d1-b9d0-9d5b2df728a5
+      83a8d911-d03e-4a13-8788-b5d714fd8cb5
+      a314c2a2-dd5e-4088-a70b-6036325b86ce
+      af4828ac-ee38-4b54-96e3-5349cbbd9ab3
+      b371f526-1d05-4622-9d6d-88051b41f100
+      bcf3138a-3e43-4644-8442-46dce3312aba
+      e6d09b9c-da11-409a-b7a3-2f674f72e12f
+      eb1369d7-ff9b-4665-bbae-d2663726a831
+    )
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC12E_Vertical_H20mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
