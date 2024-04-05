@@ -515,9 +515,8 @@
       )
     )
   )
-<<<<<<< Updated upstream
   (symbol "IS31FL3746A" (in_bom yes) (on_board yes)
-    (property "Reference" "U?" (at 4.5594 -26.67 0)
+      (property "Reference" "U?" (at 4.5594 -26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IS31FL3746A" (at 4.5594 -29.21 0)
@@ -526,43 +525,6 @@
     (property "Footprint" "Crokto:IS31FL3741A-QF" (at 0 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  (symbol "RKJXT1F42001" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "MF" (at 0 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "RKJXT1F42001" (at 0 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-=======
-  (symbol "IS31FL3746A" (in_bom yes) (on_board yes)
-    (property "Reference" "U?" (at 4.5594 -26.67 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "IS31FL3746A" (at 4.5594 -29.21 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Crokto:IS31FL3741A-QF" (at 0 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-=======
-  (symbol "IS31FL3746A" (in_bom yes) (on_board yes)
-    (property "Reference" "U?" (at 4.5594 -26.67 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "IS31FL3746A" (at 4.5594 -29.21 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Crokto:IS31FL3741A-QF" (at 0 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
->>>>>>> 1a0515e16843b92ae9482703dde0bf41de155972
->>>>>>> Stashed changes
     (property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS31FL3746A_DS.pdf" (at 0 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -726,13 +688,6 @@
     (property "Footprint" "" (at 0 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> 1a0515e16843b92ae9482703dde0bf41de155972
-=======
->>>>>>> 1a0515e16843b92ae9482703dde0bf41de155972
->>>>>>> Stashed changes
     (property "Datasheet" "" (at 0 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -944,20 +899,6 @@
       )
     )
   )
-<<<<<<< Updated upstream
-  (symbol "TXS0101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TXS0101" (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
   (symbol "SW_DP4T" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "SW" (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
@@ -1065,31 +1006,6 @@
     (property "Footprint" "" (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-=======
-  (symbol "TXS0101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TXS0101" (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
->>>>>>> 1a0515e16843b92ae9482703dde0bf41de155972
-=======
-  (symbol "TXS0101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TXS0101" (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
->>>>>>> 1a0515e16843b92ae9482703dde0bf41de155972
->>>>>>> Stashed changes
     (property "Datasheet" "" (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
